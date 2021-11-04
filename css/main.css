@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 50rem;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+p:hover {
+  cursor: grab;
+}
+
+h2, h4 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: black;
+  margin-top: 0;
+}
+
+button {
+  padding: 10px 8px;
+  width: 200px;
+  font-size: 16px;
+  background: cornflowerblue;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #404040;
+}
+
+.button:focus {
+  box-shadow: 0px 0px 0px 1px #0087ff;
+}
+
+.rno_game_table {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.rno_game_table td {
+  border: 1px solid black;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.rno_first_form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 20%;
+}
+
+
+.rno_second_form {
+  display: none;
+}
+
+.rno-results-block {
+  margin-top: 20px;
+}
+
+.rno_second_form_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#rno_btn_restart {
+  margin-top: 15px;
+}
+
+.rno_img {
+  vertical-align: bottom;
+  width: 100%;
+  height: 100px
+}
+
+#rno_img_search{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+.rno_game_panel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
