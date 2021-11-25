@@ -1,7 +1,7 @@
 let min = 1
 let max = 25
 let sufix = 'rno'
-
+let a = 10
 
 let msg_error = 'Не вірний вибір'
 let msg_congratulation = 'Вітаю ви виграли'
@@ -62,7 +62,7 @@ function startGame() {
       if (data === j.toString()) {
         $("#rno_img_search").attr("src", `img/${search_arr[++search_counter]}.jpg`);
         $(`#${j}_id_img`).remove()
-        if (search_counter === 25) {
+        if (search_counter === 10) {
           $('#msg_dialog').text(msg_congratulation)
           $("#dialog").dialog("open");
         }
