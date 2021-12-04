@@ -1,6 +1,6 @@
 let min = 1
-let max = 25
-let sufix = 'rno'
+let max = 25 // Can 10 from win
+let sufix = 'anlife'
 let a = 10
 
 let msg_error = 'Неправомірна дія'
